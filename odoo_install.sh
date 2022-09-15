@@ -149,7 +149,7 @@ sudo su $OE_USER -c "mkdir $OE_HOME/custom"
 sudo su $OE_USER -c "mkdir $OE_HOME/custom/addons"
 
 echo -e "\n---- Setting permissions on home folder ----"
-sudo chown -R $OE_USER:$OE_USER $OE_HOME/*
+sudo chown -R $OE_USER:$OE_USER /$OE_HOME
 
 echo -e "* Create server config file"
 
